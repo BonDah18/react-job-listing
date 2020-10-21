@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom';
-
+import styled from "styled-components";
 
 
 export default class Navbar extends Component {
@@ -53,7 +53,7 @@ export default class Navbar extends Component {
 }
 
 const NavWrapper = styled.nav`
-  background:var(--mainBlue);
+  background:var(--lightBlue);
   .nav-link:{
     color: var(--mainWhite) !important;
     font-size:1.3rem;

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import {Switch, Route} from 'react-router-dom';
 import Navbar from './Components/Navbar';
-import "./style.css";
+import "./index.css";
 
 class App extends Component {
   render() {

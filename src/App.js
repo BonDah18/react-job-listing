@@ -27,16 +27,3 @@ class App extends Component {
 
 
 export default App
-
-
-
-
-
-export default function App() {
-  return (
-    <div>
-      <h1>Hello Job Seekers!</h1>
-      <p>Start editing to see some magic happen :)</p>
-    </div>
-  );
-}
